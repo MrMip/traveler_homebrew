@@ -1,0 +1,278 @@
+#+TITLE: Energy World Building
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="https://gongzhitaao.org/orgcss/org.css"/>
+
+
+* Energy
+** Basic Energy Rules
+All energy requires the user to channel it to be, used. Most energies require both arms to be free for the elbow down.
+*** Energy points (ep)
+Some energies require (ep) to use (there are: Life, Kinetic, Time). Energy points is; stored, named, measured and, regained differently for each energy. The energies that don't use (ep) simply manipulate the already excising energy in the world.   
+*** Energy Devices and Crystals
+Energy is a form of power and it obeys the [[https://en.wikipedia.org/wiki/First_law_of_thermodynamics][first law of thermodynamics]] energy crystals are natural deposits of energy most of witch act as batteries as such they can be discharged and then recharged (only can be recharged by a user of the same energy as the crystal). These crystals can be used to power different devices that then can do thighs similar to use energy but at a much lower efficacy.    
+
+** Energy Types
+| Color  | Name      | Description                                                                                                           |
+|--------+-----------+-----------------------------------------------------------------------------------------------------------------------|
+| Purple | Ethereal  | Allows the user to either create portals a short distance away or either retrieve or deposed an item into the Either. |
+| Black  | Life/Dark | Gives the user the ability to both drain and restore life from a willing/broken living object.                        |
+| Yellow | Kinetic   | Turns the users caloric energy into kinetic energy witch can be, directed towards any thing in sight (max:100m).      |
+| White  | Fusing    | Grants the user the ability to combine and control the energy of willing/unconscious channeled energy users.          |
+| Pink   | Mind      | Can see and manipulate for a (ep) cost the Mind-web.                                                                  |
+| Green  | Time      | Gives the user the ability to glide theme selves and any items on there person thru time for a cost of (ep).          |
+
+*** Ethereal (Purple)
+Ethereal energy allows the user to either create portals (max 2m diameter) a short distance away or either retrieve or deposed an item (witch can fit into the hand) into the Either.
+
+**** Level Table
+Each Level there are the options two different please only pick one.
+| Level        | Opt 1      | Opt 2                                                |
+|--------------+------------+------------------------------------------------------|
+| Natural      | +1m^3 Hold | +5m Portal Range                                     |
+| Novice       | +1m^3 Hold | +10m Portal Range                                    |
+| Intermediate | +1m^3 Hold | +10m Portal Range                                    |
+| Master       | +2m^3 Hold | +15m Portal Range                                    |
+| High Master  | +3m^3 Hold | +500m Portal Range                                   |
+| Grand Master | +5m^3 Hold | +1k Portal Range and Pick one former unpicked option |
+
+*** Life/Dark (Black)
+ Life energy gives the user the ability to both drain and restore life from a willing/broken entity with life force. The draining of life force restores (ep) while the restoring to others and performing energy actions depletes (ep). For dark energy users the total depletion of (ep) is lethal having low (ep) has negative side effects on the wielder (chart below).
+
+**** Level Table
+The ability you choose must be at most of the same level as your creator.
+| Level        |                                                            |
+|--------------+------------------------------------------------------------|
+| Natural      | +1,000 Dark energy Holding +1 Dark ability                 |
+| Novice       | +1,000 Dark energy Holding +1 Dark ability                 |
+| Intermediate | +3,000 Dark energy Holding +1 Dark ability                 |
+| Master       | +5,000 Dark energy Holding +1 Dark ability                 |
+| High Master  | +10,000 Dark energy Holding +1 Dark ability                |
+| Grand Master | +50,000 Dark energy Holding +1 Dark ability and Dark sight |
+**** Dark Ability Table
+To use a ability you must be at lest the same level as the ability. 
+| Level        | Name                | Description                                                                                                                         |
+|--------------+---------------------+-------------------------------------------------------------------------------------------------------------------------------------|
+| Natural      | Dark Energy Control | The user can control up to you max capacity of Dark energy capacity while its in a physical form. (50^3cm = 1,000 Dark(ep))         |
+| Novice       | Force Drain         | This allows the user to forcefully drain a targets Life energy (within sight) but at the expense of (2x) the life energy drained.   |
+| Novice       | Dark Speak          | Allows the user to speed Dark crystals.                                                                                             |
+| Intermediate | Will Brake          | Whom ever uses this is able to brake the will of a creature. This allows draining. (Costs creatures (Str+End+Int-Age)x10 + 3 hours) |
+| Intermediate | Energy whips        | Allows you to control as much energy as you like assuming it is in contact with your arms. (Damage ((ep) in whips x .01)D )         |
+| Master       | Energy Tentacles    | Control four tentacles on any size as long as there connected to you. at HM the number increase to five an GM eight.                |
+| Grand Master | Dark sight          | Allows you the see the total Dark and not Dark (ep) where ever you look                                                             |
+**** Energy Point Loss table
+| Energy Points | Effect           |
+|---------------+------------------|
+| 500+ (ep)     | N/A              |
+| 499-300 (ep)  | -1 End DM        |
+| 299-100 (ep)  | -1 To all roles  |
+| 99-50 (ep)    | -5 To all roles  |
+| 49 - 1 (ep)   | -10 To all roles |
+| 0 (ep)        | Death            |
+
+*** Kinetic (Yellow)
+ Turns the users caloric energy into kinetic energy witch can be, directed towards any thing in sight (max:100m). The amount of (ep) the user has stored is, deterred by the users stored caloric energy witch is a 1:1 ration to (ep) but, only one third of the caloric intake can be, used for energy the other 2/3 are, used for normal body functions.
+
+**** Level Table
+| Level        |                                                  |
+|--------------+--------------------------------------------------|
+| Natural      | +100N Max Force                                  |
+| Novice       | +100N Max Force                                  |
+| Intermediate | +300N Max Force                                  |
+| Master       | +500N Max Force                                  |
+| High Master  | +10,00N Max Force                                |
+| Grand Master | +30,00N Max Force can and control unseen objects |
+
+*** Fusing (White)
+Grants the user the ability to combine and control the energy of willing/unconscious channeled energy users. Allowing the to do fused abilities up to the users level.
+
+**** Level Table
+| Level        |                                                                                   |
+|--------------+-----------------------------------------------------------------------------------|
+| Natural      | +2 Source fuse max                                                                |
+| Novice       | +3 Source fuse max                                                                |
+| Intermediate | +5 Source fuse max                                                                |
+| Master       | +10 Source fuse max                                                               |
+| High Master  | +30 Source fuse max                                                               |
+| Grand Master | +50 Source fuse max and can channel and learn to control the energy for a crystal of all types |
+
+**** Fused Energy Abilities Table
+| Level        | Energies        | Name       | Description                                                                                                                                     |
+|--------------+-----------------+------------+-------------------------------------------------------------------------------------------------------------------------------------------------|
+| Intermediate | Ethereal & Life | Black hole | Forms a black hole (max 2m Diameter) that sucks the life energy out of anyone in a 1k radius.                                                   |
+| Intermediate | Kinetic & Life  | Life Steal | For the cost of 3x Dark (ep) and 10 Kinetic (ep)/min file Force drain is instant and has a pushily effect on any one within a 1m of the victim. |
+|              |                 |            |                                                                                                                                                 |
+
+*** Mind (Pink)
+Can see and manipulate for a (ep) cost the Mind-web. the Mind-web is both the web of ideas in ones mind as well as the web of ideas amongst individuals and groups. Energy points must be used to do any manipulations to find the (ep) cost multiply the group size by the manipulation size to get the total (ep) cost. Mind energy is gained by daring minds of one the user has killed this will permanently leave the user with this persons memories witch will lead to insanity of time as well as loss of ones selfie.    
+
+**** Level Table
+| Level        |                                                                                      |
+|--------------+--------------------------------------------------------------------------------------|
+| Natural      | Can only see the web on a individual level and can't manipulate it.                  |
+| Novice       | Can only see the web on a individual level and can only do small manipulations it.   |
+| Intermediate | Can only see the web on a Small Group level and can only do small manipulations it.  |
+| Master       | Can only see the web on a Small Group level and can only do medium manipulations it. |
+| High Master  | Can only see the web on a Large Group level and can only do medium manipulations it. |
+| Grand Master | Can see the web on a total level and can do Large manipulations it.                  |
+***** Groups Sizes
+| Size       | Number of people | (ep) cost |
+|------------+------------------+-----------|
+| Individual |                1 |         1 |
+| Small      |               10 |         5 |
+| Large      |              100 |        10 |
+| Total      |              All |        15 |
+***** Manipulation sizes
+| Size   |                               | (ep) cost |
+|--------+-------------------------------+-----------|
+| Small  | A detail                      |         1 |
+| Medium | Multiple details up to five   |         5 |
+| Large  | Total fabrication of a memory |        10 |
+
+*** Time (Green)
+Gives the user the ability to glide theme selves and any items on there person thru time for a cost of (ep), But either traveling too fast or to far can have severe side effects in the forum of uncontrollable displacement thru time. Whilst traveling thru time the user will NOT be move in position relative the nearest gravitational body of ant lest 3/10G . 
+
+**** Level Table
+For jumps larger than the max safe time refer the function blow.
+| Level        |                       |
+|--------------+-----------------------|
+| Natural      | Max safe travel 5m.   |
+| Novice       | Max safe travel 15m.  |
+| Intermediate | Max safe travel 25m.  |
+| Master       | Max safe travel 30m.  |
+| High Master  | Max safe travel 60m.  |
+| Grand Master | Max safe travel 100m. |
+***** Jump distance function
+This is used to both find and, represent how to find the random variation in time energy time travel.    
+
+#+BEGIN_SRC python :results output
+  import random
+
+  timeJumped = 5 #Change to the Time being jumped.
+  level = 0 #Change to current level Nat:0, Nov:1, Int:2, Ma:3, Hm:4 and, Gm:5.
+  doLastJumpCalc = False # Do you whant to do the last jump calc? true = yes false = no
+  timeSinceLastJump = 0 # How long has it been since the last jump?
+  lastJumpDistance = 0 # How long was your last jump?
+
+  def levelMax(level):
+	    if level == 0 : return 5
+	    elif level == 1 : return 15
+	    elif level == 2 : return 25
+	    elif level == 3 : return 30
+	    elif level == 4 : return 60
+	    elif level == 5 : return 100
+	    else: return 5
+
+  def timeJumpedOver(timeJumped,level):
+	    timeJumpedOver = timeJumped - levelMax(level)
+	    if timeJumped < 0: return 0
+	    else: return timeJumpedOver
+
+  def timeJumpedOverPercentage(timeJumped,level,doLastJumpCalc,timeSinceLastJump,lastJumpDistance):
+	    if(doLastJumpCalc == True and lastJumpDistance > timeSinceLastJump and timeSinceLastJump != 0):
+		      return timeJumped/(levelMax(level) - (lastJumpDistance - timeSinceLastJump))
+	    elif timeSinceLastJump == 0: return 1
+	    else: return timeJumped/levelMax(level)
+
+  def jumpedBackDistance(level,timeJumped,timeJumpedOver,doLastJumpCalc,timeSinceLastJump,lastJumpDistance):
+	    if levelMax(level) == timeJumped and doLastJumpCalc == False: return timeJumped
+	    elif timeJumpedOverPercentage(timeJumped,level,doLastJumpCalc,timeSinceLastJump,lastJumpDistance) <= 1: return timeJumped + random.uniform(levelMax(level)*1, levelMax(level)*2) 
+	    elif timeJumpedOverPercentage(timeJumped,level,doLastJumpCalc,timeSinceLastJump,lastJumpDistance) <= 2: return timeJumped + random.uniform(levelMax(level)*2, levelMax(level)*4) 
+	    elif timeJumpedOverPercentage(timeJumped,level,doLastJumpCalc,timeSinceLastJump,lastJumpDistance) <= 3: return timeJumped + random.uniform(levelMax(level)*3, levelMax(level)*5) 
+	    elif timeJumpedOverPercentage(timeJumped,level,doLastJumpCalc,timeSinceLastJump,lastJumpDistance) <= 5: return timeJumped + random.uniform(levelMax(level)*4, levelMax(level)*6)
+	    else: return -1
+
+
+  def printOutput(level,timeJumped,timeJumpedOverPercentage,doLastJumpCalc,timeSinceLastJump,lastJumpDistance):
+	    print("Jumped", jumpedBackDistance(level,timeJumped,timeJumpedOver,doLastJumpCalc,timeSinceLastJump,lastJumpDistance), "minutes back in time.")
+  printOutput(level,timeJumped,timeJumpedOverPercentage,doLastJumpCalc,timeSinceLastJump,lastJumpDistance)
+#+END_SRC
+
+#+RESULTS:
+: Jumped 5 minutes back in time.
+
+* History
+All of this is till a heavy work in progress. 
+** Events/Objects
+*** Era One
+**** The Western Shield Project
+The WSP is a complex grid of lazier and missal defense grids designed to protect western airspace and airspace of western interest form threats of both terrestrial and explanatory origin.
+
+** Era One
+*** 2030
+Commercial space travel is a economically viable as well as the [[The Western Shield Project][Western Shield Project]] is in the works between the US and UK.
+
+* Factions
+** Earth
+*** Major
+**** Western Collision
+***** Leaders
++ United States of America
++ English Commonwealth
++ German Empire
++ French Republic
+***** Members 
++ The Northern Lights
++ German Iberia 
++ Flanders
++ Luxembourg
++ Belgium
++ Austria
++ Liechtenstein
++ Hungary
++ West Poland
++ Iceland
++ Greenland
++ Quebec
++ Mexico 
++ Israel
++ Greece
++ Turkey
++ American Istanbul
++ Japan
+**** The Chines Empire
+***** Leader
++ China
+***** Members
++ Taiwan
++ Korea
++ Vietnam
++ Laos
++ Cambodia
++ Mongolia 
++ Kyrgyzstan 
++ Philippines
++ Brazil
+**** The Slavic States 
+***** Leader
++ Russia 
+***** Members
++ Kazakhstan
++ Ukraine
++ Belarus
++ Lithuania
++ Latvia 
++ Estonia
++ Yugoslavia
++ Romania
++ Moldova
++ Czechia
++ Slovakia
+*** Minor 
+**** English Commonwealth
+**** Switzerland 
+***** Leaders
++ The Crown
++ England 
++ Scotland
++ Whales
++ Ireland
+***** Members 
++ Canada
++ Australia
++ New Zealand
++ Singapore
++ Hong Kong
++ New South Africa
++ English Nigeria
+** Mars
+
+** Belt

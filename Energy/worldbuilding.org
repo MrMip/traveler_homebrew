@@ -189,17 +189,31 @@ This is used to both find and, represent how to find the random variation in tim
 #+RESULTS:
 : Jumped 5 minutes back in time.
 
-* History
-All of this is till a heavy work in progress. 
-** Events/Objects
-*** Era One
-**** The Western Shield Project
-The WSP is a complex grid of lazier and missal defense grids designed to protect western airspace and airspace of western interest form threats of both terrestrial and explanatory origin.
-
-** Era One
-*** 2030
-Commercial space travel is a economically viable as well as the [[The Western Shield Project][Western Shield Project]] is in the works between the US and UK.
-
+* Timeline
+** The Start of WWIII 
+*** 2020
++ China broke a agreement with the UK surrounding Hong Kong.
++ Chines ships show growing hostility towards American, British, German, and Japanese ships in the sea of Japan.
+*** 2026
++ Independent Chines pirates take a German cargo ship hostage. The chines government responds by drooping a boom on the deck of the cargo ship. Before nearby American or German troops can respond; ending in the deaths of all 30 crew members and the lost a the 1.6B Euros Ship and the 460M Euros in cargo.
++ The German Public is in out rage. Angela Merkel makes a public statement damming the chines government in the actions.
++ The German war machine starts ramping up.
+*** 2028
++ The Chines government asks the United States to retract all units from nine-dash line. The United States refuses.
++ The /USS Harry S. Truman/ is sunk of the cost of Taiwan after a air and sea skirmish with china
+Casualties
+CCP: 3,426
+US: 1,548
+DE: 164
+UK: 34
+TW: 4
++ US Present John W. Nicholson. Declares war on China. Germany follows suit.
++ Queen Elizabeth II voices support for the US and Germany.
+*** 2029
++ Prince Philips plain is shot down by the Chines while on a culinary visit to Japan.
++ British prime minster Jon L. Smith is force to resign under growing presser.
++ British PM Edward H. Smith declares war on China. Pulling the entire common wealth in.
++ Quebec's PM Éttienne Napoleon voices anti English sentiment.
 * Factions
 ** Earth
 *** Major

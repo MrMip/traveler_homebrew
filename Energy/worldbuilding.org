@@ -8,7 +8,7 @@ All energy requires the user to channel it to be, used. Most energies require bo
 *** Energy points (ep)
 Some energies require (ep) to use (there are: Life, Kinetic, Time). Energy points is; stored, named, measured and, regained differently for each energy. The energies that don't use (ep) simply manipulate the already excising energy in the world.   
 *** Energy Devices and Crystals
-Energy is a form of power and it obeys the [[https://en.wikipedia.org/wiki/First_law_of_thermodynamics][first law of thermodynamics]] energy crystals are natural deposits of energy most of witch act as batteries as such they can be discharged and then recharged (only can be recharged by a user of the same energy as the crystal). These crystals can be used to power different devices that then can do thighs similar to use energy but at a much lower efficacy.    
+Energy is a form of power and it obeys the [[https://en.wikipedia.org/wiki/First_law_of_thermodynamics][first law of thermodynamics]] energy crystals are natural deposits of energy most of witch act as batteries as such they can be discharged and then recharged (only can be recharged by a user of the same energy as the crystal). These crystals can be used to power different devices that then can do actions similar to use energy but at a much lower efficacy.    
 
 ** Energy Types
 | Color  | Name      | Description                                                                                                           |

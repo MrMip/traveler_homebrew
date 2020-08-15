@@ -188,19 +188,67 @@ This is used to both find and, represent how to find the random variation in tim
 
 #+RESULTS:
 : Jumped 5 minutes back in time.
+* Items
+** Weapons
+Naming conventions Martian:M### UN:EDF### <Name> WC:Country/### CE:The_Grate <Name> SS:<Leader>-###
+Type Designations Energy Weapon:EW Rail-gun:RG Lazier:LZ Propellant:PP
+Effective range is for earth like conditions.         
+*** Ranged
+**** M172 RG
+2D + 1, 20 R, 2R/S, ER 30m
+**** EDF103 Sandy PP
+3D + 2, 10 R, 1R/S, ER 100m
+**** WCUS/184 RG
+1D, 320 R, 15R/S, ER 30m
+**** The_Grate Liberator PP
+1D + 2, 10 R, 1R/S, ER 20m
+**** SS_PeterI-798 LZ
+***** Charge Blast
+6D, 2 R, (1/5)R/S, ER ∞
+***** Normal Blast
+2D, 100 R, 1 R/S, ER ∞
 
+*** Melee  
+** Tools
+** Drugs
+** Ships
+Naming conventions Martian:M###<Ship Class> UN:EDF###Space <Name> WC:Country/###S CE:The_Grate <Name> SS:-Yuri Gagarin-### BO:Boeing 9##
+*** Transport
+**** M882LrTrans
+Diameter 15m
+| Deck(s) # |                                                |
+|-----------+------------------------------------------------|
+|         0 | Bridge                                         |
+|         1 | Mess/Armory                                    |
+|         2 | Crew Quarters                                  |
+|       3-5 | 1m wide corridor one either side passer rooms. |
+|         6 | Docking                                        |
+|       7,8 | Engineering                                    |
+*** Cargo/Freighters
+**** Boeing 977
+Diameter 100m until deck 5 then 20m.
+| Deck(s) # |               |
+|-----------+---------------|
+|         0 | Docking       |
+|       1-5 | Cargo         |
+|         6 | Mess/Armory   |
+|         7 | Crew Quarters |
+|         8 | Bridge        |
+|         9 | Engineering   |
+
+** Ship Weapons
 * Timeline
 ** The Start of WWIII 
 *** 2020
 + China broke a agreement with the UK surrounding Hong Kong.
 + Chines ships show growing hostility towards American, British, German, and Japanese ships in the sea of Japan.
 *** 2026
-+ Independent Chines pirates take a German cargo ship hostage. The chines government responds by drooping a boom on the deck of the cargo ship. Before nearby American or German troops can respond; ending in the deaths of all 30 crew members and the lost a the 1.6B Euros Ship and the 460M Euros in cargo.
++ Independent Chines pirates take a German cargo ship hostage. The chines government responds by drooping a bomb on the deck of the cargo ship. Before nearby American or German troops can respond; ending in the deaths of all 30 crew members and the lost a the 1.6B Euros Ship and the 460M Euros in cargo.
 + The German Public is in out rage. Angela Merkel makes a public statement damming the chines government in the actions.
 + The German war machine starts ramping up.
 *** 2028
 + The Chines government asks the United States to retract all units from nine-dash line. The United States refuses.
-+ The /USS Harry S. Truman/ is sunk of the cost of Taiwan after a air and sea skirmish with china
++ The /USS Harry S. Truman/ is sunk of the cost off Taiwan after a air and sea skirmish with China.
 Casualties
 CCP: 3,426
 US: 1,548
@@ -214,6 +262,103 @@ TW: 4
 + British prime minster Jon L. Smith is force to resign under growing presser.
 + British PM Edward H. Smith declares war on China. Pulling the entire common wealth in.
 + Quebec's PM Éttienne Napoleon voices anti English sentiment.
+** WWIII
+*** Factions
+| Allies        | China |
+|---------------+-------|
+| US            | CCP   |
+| UK            |       |
+| SA            |       |
+| CA            |       |
+| AU            |       |
+| NZ            |       |
+| HK            |       |
+| DE            |       |
+| RU (March 31) |       |
+| MN (April 31) |       |
+*** 2030
++ A British lead multinational coalition lays siege to Hong Kong capturing in 36 hours.
++ Riots erupt in tanimania square.
++ Germany pushes into Shenzhen
+*** 2031
++ China responds with a 30mil string push. Germany falls back to Hong Kong where the Allies hold
+**** The Siege of Hong Kong    
+***** February 
++ The Allies are pushed back to Ma Wan
++ China drops bombs on Kap Shui Mun Bridge cutting the Allies forward healed position on Ma Wan off from the main base and airfield on Tung Chung.
++ China attempts a push from Chines held Tsing Yi down Tsing Ma Bridge to the Allies forward base on Ma Wan. The chines end up building a barricade out of there own fallen troops. Loosing 330,845 men.
++ At the same time as the push China launches conventional ICBMs at Washington, New York, London, Berlin, Munich. The ICBMs headed for North America are stopped by American defines systems and the one headed for Europe are stopped by the Russian defines systems.
+***** March                
++ Over air space violations Russia declares war on China.
++ US spy plains capture images of 85mill chines troops moving towards Hong Kong.
++ 2mill Allie troops are evacuated to Taiwan from Chek Lap Kok. 132,023 men are lost in heavy carpet bombing of Tung Chug by China.
+Casualties Allies 312,513 China 8,234,493
+**** Post Siege of Hong Kong 
++ Under Russian Mongolia joins the Allies
++ A joint Moscow Mi16 task force starts establishing insurgency groups inside Hohhot, Beijing, and Hong Kong.
+*** 2032
++ Various minor sea battles  
+Casualties Allies 2,891 China 332,451
++ The Start of the [[Taiwanese Civil War][Taiwanese Civil War]]
+**** December
++ Russian sleeper cells are activated in Beijing.
++ Xi Jinping is assisted by a Russian agent.
++ Mi16/Moscow insurgency groups are activated.
+*** 2033   
++ Hohhot and Hong Kong are under insurgent control.
++ A Russian lead joint Russian Mongolian coalition capture Inner Mongolia.
++ German troop move into Hong Kong. Insurgents are at first hesitant of Germans until a peace offering of German bear and sausage.
+*** 2034        
++ China Pops
++ Most unseeded nuclear arms are launcher randomly. Most are stopped by either Russian or American defines systems, but not all nukes land in Munich, Paris, Glasgow, Las Angeles, New York, Tokyo, and Sidney.
+*** Land Captured      
+| Land           | New Owner      |
+|----------------+----------------|
+| Hong Kong      | United Kingdom |
+| Inner Mongolia | Mongolia       |
+| Tibet          | American Tibet |
+| Macao          | Germany        |
+*** Total Casualties 
+| Country | Military | Civilian   |
+|---------+----------+------------|
+| US      | 42,231   | 23,433,137 |
+| UK      | 38,231   | 611,748    |
+| DE      | 29,872   | 1,538,302  |
+| RU      | 126,231  | 6          |
+| MN      | 3,212    | 987        |
+| FR      | 842      | 2,148,271  |
+| AZ      | 2,023    | 5,312,163  |
+| JP      | 231      | 13,929,280 |
+*** Taiwanese Civil War  
+**** 2032
+***** October
++ Protest in Taipei over the so called western occupation of Taiwan.
+***** November
++ Riots in Tainan
++ US Army military police use lethal crowd control tactics in Tainan.
+***** December   
++ A man in Yilan City rapes a German female troop. Her company with out orders for high command responds with the massacre of the man and his family.
++ Anti western riots start in Taipei, Tainan, Yilan City, and Kaohsiung. 
++ Allie troops are attacked by locals while on liberty. 
++ Taiwanese president Li Xiu Lee formally expels Allie troops. The Allies refuse.
++ The US sees control of Taipei. Much of the government including Li Xiu Lee flees to Japan; where Japanese offices arrest them on behalf of the US. There promptly sentenced to Death in Japanese courts.
+**** 2033 
+***** January       
++ The US establish a puppet government and takes control of the rest of the island.
+***** April 
++ The frequency of riots increases to the point where the puppet government lethally enforces a curfew kills the internet and jams all radio transitions.
+***** June       
++ A full scale rebellion has started 
++ Allies retreat troops to either Japan or there homeland.
+***** July
++ The puppet government falls to the totalitarian up rising.   
+** The Nuclear Winter  
+*** 2033
++ Global tempers are reduced by on average 5°c.  
++ A multi national task force by the name of SEANCTF (South East Asian Nuclear Capture Task Force) comprised of The UK, The US, France, Germany, and Russia is assailed to capture any remaining nuclear weapons in the south east Asian war zone formally known as china.
+*** 2034
++ Famine in Poland
+  
 * Factions
 ** Earth
 *** Major

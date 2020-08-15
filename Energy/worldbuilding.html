@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2020-08-13 Thu 01:15 -->
+<!-- 2020-08-15 Sat 05:30 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Energy World Building</title>
@@ -160,6 +160,19 @@
   .footdef  { margin-bottom: 1em; }
   .figure { padding: 1em; }
   .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
   .inlinetask {
     padding: 10px;
     border: 2px solid gray;
@@ -185,7 +198,7 @@
 @licstart  The following is the entire license notice for the
 JavaScript code in this tag.
 
-Copyright (C) 2012-2019 Free Software Foundation, Inc.
+Copyright (C) 2012-2020 Free Software Foundation, Inc.
 
 The JavaScript code in this tag is free software: you can
 redistribute it and/or modify it under the terms of the GNU
@@ -234,48 +247,86 @@ for the JavaScript code in this tag.
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#orge11c8bd">1. Energy</a>
+<li><a href="#org36e2643">1. Energy</a>
 <ul>
-<li><a href="#orgca5f4c2">1.1. Basic Energy Rules</a>
+<li><a href="#org5119185">1.1. Basic Energy Rules</a>
 <ul>
-<li><a href="#orgc50558f">1.1.1. Energy points (ep)</a></li>
-<li><a href="#org617114c">1.1.2. Energy Devices and Crystals</a></li>
+<li><a href="#org792a905">1.1.1. Energy points (ep)</a></li>
+<li><a href="#org89abd88">1.1.2. Energy Devices and Crystals</a></li>
 </ul>
 </li>
-<li><a href="#orgf3e37be">1.2. Energy Types</a>
+<li><a href="#org9f0ccaf">1.2. Energy Types</a>
 <ul>
-<li><a href="#orgd1118ea">1.2.1. Ethereal (Purple)</a></li>
-<li><a href="#org204b895">1.2.2. Life/Dark (Black)</a></li>
-<li><a href="#orgfb61820">1.2.3. Kinetic (Yellow)</a></li>
-<li><a href="#orgba76914">1.2.4. Fusing (White)</a></li>
-<li><a href="#org8dc978c">1.2.5. Mind (Pink)</a></li>
-<li><a href="#orge5f82cc">1.2.6. Time (Green)</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li><a href="#org3549763">2. Timeline</a>
-<ul>
-<li><a href="#orgaa19d32">2.1. The Start of WWIII</a>
-<ul>
-<li><a href="#org44b80de">2.1.1. 2020</a></li>
-<li><a href="#org7f642e1">2.1.2. 2026</a></li>
-<li><a href="#orgfa85740">2.1.3. 2028</a></li>
-<li><a href="#orgd6fc7a2">2.1.4. 2029</a></li>
+<li><a href="#org5c35f42">1.2.1. Ethereal (Purple)</a></li>
+<li><a href="#org6aab2a8">1.2.2. Life/Dark (Black)</a></li>
+<li><a href="#orgf2f11f9">1.2.3. Kinetic (Yellow)</a></li>
+<li><a href="#org5f0e301">1.2.4. Fusing (White)</a></li>
+<li><a href="#org3b0ee60">1.2.5. Mind (Pink)</a></li>
+<li><a href="#orgd7ebca4">1.2.6. Time (Green)</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li><a href="#orgd954e53">3. Factions</a>
+<li><a href="#org100cea3">2. Items</a>
 <ul>
-<li><a href="#org359392d">3.1. Earth</a>
+<li><a href="#org70ac6be">2.1. Weapons</a>
 <ul>
-<li><a href="#orgf090988">3.1.1. Major</a></li>
-<li><a href="#org9fe9e34">3.1.2. Minor</a></li>
+<li><a href="#orgd503a1a">2.1.1. Ranged</a></li>
+<li><a href="#orga95fe66">2.1.2. Melee</a></li>
 </ul>
 </li>
-<li><a href="#org0de6276">3.2. Mars</a></li>
-<li><a href="#orga7ebb35">3.3. Belt</a></li>
+<li><a href="#org68517b4">2.2. Tools</a></li>
+<li><a href="#orge47ebb5">2.3. Drugs</a></li>
+<li><a href="#org627c1aa">2.4. Ships</a>
+<ul>
+<li><a href="#org5f23106">2.4.1. Transport</a></li>
+<li><a href="#org36ee47f">2.4.2. Cargo/Freighters</a></li>
+</ul>
+</li>
+<li><a href="#org9db8d50">2.5. Ship Weapons</a></li>
+</ul>
+</li>
+<li><a href="#orga1f3184">3. Timeline</a>
+<ul>
+<li><a href="#org09ad413">3.1. The Start of WWIII</a>
+<ul>
+<li><a href="#org6bc8ce2">3.1.1. 2020</a></li>
+<li><a href="#orgebb7d69">3.1.2. 2026</a></li>
+<li><a href="#orgd8a3eb0">3.1.3. 2028</a></li>
+<li><a href="#org556cd92">3.1.4. 2029</a></li>
+</ul>
+</li>
+<li><a href="#org6101cd7">3.2. WWIII</a>
+<ul>
+<li><a href="#org3fffebb">3.2.1. Factions</a></li>
+<li><a href="#org920296a">3.2.2. 2030</a></li>
+<li><a href="#orga322851">3.2.3. 2031</a></li>
+<li><a href="#org000500e">3.2.4. 2032</a></li>
+<li><a href="#orgfd10d27">3.2.5. 2033</a></li>
+<li><a href="#org277b5ca">3.2.6. 2034</a></li>
+<li><a href="#orge36c3aa">3.2.7. Land Captured</a></li>
+<li><a href="#orged940f1">3.2.8. Total Casualties</a></li>
+<li><a href="#org84edc25">3.2.9. Taiwanese Civil War</a></li>
+</ul>
+</li>
+<li><a href="#orgc9c63c0">3.3. The Nuclear Winter</a>
+<ul>
+<li><a href="#org7664da3">3.3.1. 2033</a></li>
+<li><a href="#orgdde8282">3.3.2. 2034</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org65217f7">4. Factions</a>
+<ul>
+<li><a href="#org3e1601d">4.1. Earth</a>
+<ul>
+<li><a href="#org7ba8d9b">4.1.1. Major</a></li>
+<li><a href="#org61c4715">4.1.2. Minor</a></li>
+</ul>
+</li>
+<li><a href="#org741f676">4.2. Mars</a></li>
+<li><a href="#org2238732">4.3. Belt</a></li>
 </ul>
 </li>
 </ul>
@@ -283,27 +334,27 @@ for the JavaScript code in this tag.
 </div>
 
 
-<div id="outline-container-orge11c8bd" class="outline-2">
-<h2 id="orge11c8bd"><span class="section-number-2">1</span> Energy</h2>
+<div id="outline-container-org36e2643" class="outline-2">
+<h2 id="org36e2643"><span class="section-number-2">1</span> Energy</h2>
 <div class="outline-text-2" id="text-1">
 </div>
-<div id="outline-container-orgca5f4c2" class="outline-3">
-<h3 id="orgca5f4c2"><span class="section-number-3">1.1</span> Basic Energy Rules</h3>
+<div id="outline-container-org5119185" class="outline-3">
+<h3 id="org5119185"><span class="section-number-3">1.1</span> Basic Energy Rules</h3>
 <div class="outline-text-3" id="text-1-1">
 <p>
 All energy requires the user to channel it to be, used. Most energies require both arms to be free for the elbow down.
 </p>
 </div>
-<div id="outline-container-orgc50558f" class="outline-4">
-<h4 id="orgc50558f"><span class="section-number-4">1.1.1</span> Energy points (ep)</h4>
+<div id="outline-container-org792a905" class="outline-4">
+<h4 id="org792a905"><span class="section-number-4">1.1.1</span> Energy points (ep)</h4>
 <div class="outline-text-4" id="text-1-1-1">
 <p>
 Some energies require (ep) to use (there are: Life, Kinetic, Time). Energy points is; stored, named, measured and, regained differently for each energy. The energies that don't use (ep) simply manipulate the already excising energy in the world.   
 </p>
 </div>
 </div>
-<div id="outline-container-org617114c" class="outline-4">
-<h4 id="org617114c"><span class="section-number-4">1.1.2</span> Energy Devices and Crystals</h4>
+<div id="outline-container-org89abd88" class="outline-4">
+<h4 id="org89abd88"><span class="section-number-4">1.1.2</span> Energy Devices and Crystals</h4>
 <div class="outline-text-4" id="text-1-1-2">
 <p>
 Energy is a form of power and it obeys the <a href="https://en.wikipedia.org/wiki/First_law_of_thermodynamics">first law of thermodynamics</a> energy crystals are natural deposits of energy most of witch act as batteries as such they can be discharged and then recharged (only can be recharged by a user of the same energy as the crystal). These crystals can be used to power different devices that then can do actions similar to use energy but at a much lower efficacy.    
@@ -312,8 +363,8 @@ Energy is a form of power and it obeys the <a href="https://en.wikipedia.org/wik
 </div>
 </div>
 
-<div id="outline-container-orgf3e37be" class="outline-3">
-<h3 id="orgf3e37be"><span class="section-number-3">1.2</span> Energy Types</h3>
+<div id="outline-container-org9f0ccaf" class="outline-3">
+<h3 id="org9f0ccaf"><span class="section-number-3">1.2</span> Energy Types</h3>
 <div class="outline-text-3" id="text-1-2">
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
@@ -372,8 +423,8 @@ Energy is a form of power and it obeys the <a href="https://en.wikipedia.org/wik
 </table>
 </div>
 
-<div id="outline-container-orgd1118ea" class="outline-4">
-<h4 id="orgd1118ea"><span class="section-number-4">1.2.1</span> Ethereal (Purple)</h4>
+<div id="outline-container-org5c35f42" class="outline-4">
+<h4 id="org5c35f42"><span class="section-number-4">1.2.1</span> Ethereal (Purple)</h4>
 <div class="outline-text-4" id="text-1-2-1">
 <p>
 Ethereal energy allows the user to either create portals (max 2m diameter) a short distance away or either retrieve or deposed an item (witch can fit into the hand) into the Either.
@@ -381,7 +432,7 @@ Ethereal energy allows the user to either create portals (max 2m diameter) a sho
 </div>
 
 <ol class="org-ol">
-<li><a id="orgd6afd30"></a>Level Table<br />
+<li><a id="org7523b14"></a>Level Table<br />
 <div class="outline-text-5" id="text-1-2-1-1">
 <p>
 Each Level there are the options two different please only pick one.
@@ -446,8 +497,8 @@ Each Level there are the options two different please only pick one.
 </ol>
 </div>
 
-<div id="outline-container-org204b895" class="outline-4">
-<h4 id="org204b895"><span class="section-number-4">1.2.2</span> Life/Dark (Black)</h4>
+<div id="outline-container-org6aab2a8" class="outline-4">
+<h4 id="org6aab2a8"><span class="section-number-4">1.2.2</span> Life/Dark (Black)</h4>
 <div class="outline-text-4" id="text-1-2-2">
 <p>
 Life energy gives the user the ability to both drain and restore life from a willing/broken entity with life force. The draining of life force restores (ep) while the restoring to others and performing energy actions depletes (ep). For dark energy users the total depletion of (ep) is lethal having low (ep) has negative side effects on the wielder (chart below).
@@ -455,7 +506,7 @@ Life energy gives the user the ability to both drain and restore life from a wil
 </div>
 
 <ol class="org-ol">
-<li><a id="org091a452"></a>Level Table<br />
+<li><a id="orgc892feb"></a>Level Table<br />
 <div class="outline-text-5" id="text-1-2-2-1">
 <p>
 The ability you choose must be at most of the same level as your creator.
@@ -508,7 +559,7 @@ The ability you choose must be at most of the same level as your creator.
 </table>
 </div>
 </li>
-<li><a id="org075e03d"></a>Dark Ability Table<br />
+<li><a id="org4e6a00d"></a>Dark Ability Table<br />
 <div class="outline-text-5" id="text-1-2-2-2">
 <p>
 To use a ability you must be at lest the same level as the ability. 
@@ -576,7 +627,7 @@ To use a ability you must be at lest the same level as the ability.
 </table>
 </div>
 </li>
-<li><a id="orgd7737ca"></a>Energy Point Loss table<br />
+<li><a id="orge862515"></a>Energy Point Loss table<br />
 <div class="outline-text-5" id="text-1-2-2-3">
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
@@ -629,8 +680,8 @@ To use a ability you must be at lest the same level as the ability.
 </ol>
 </div>
 
-<div id="outline-container-orgfb61820" class="outline-4">
-<h4 id="orgfb61820"><span class="section-number-4">1.2.3</span> Kinetic (Yellow)</h4>
+<div id="outline-container-orgf2f11f9" class="outline-4">
+<h4 id="orgf2f11f9"><span class="section-number-4">1.2.3</span> Kinetic (Yellow)</h4>
 <div class="outline-text-4" id="text-1-2-3">
 <p>
 Turns the users caloric energy into kinetic energy witch can be, directed towards any thing in sight (max:100m). The amount of (ep) the user has stored is, deterred by the users stored caloric energy witch is a 1:1 ration to (ep) but, only one third of the caloric intake can be, used for energy the other 2/3 are, used for normal body functions.
@@ -638,7 +689,7 @@ Turns the users caloric energy into kinetic energy witch can be, directed toward
 </div>
 
 <ol class="org-ol">
-<li><a id="org9d388f5"></a>Level Table<br />
+<li><a id="org4ff7bcf"></a>Level Table<br />
 <div class="outline-text-5" id="text-1-2-3-1">
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
@@ -691,8 +742,8 @@ Turns the users caloric energy into kinetic energy witch can be, directed toward
 </ol>
 </div>
 
-<div id="outline-container-orgba76914" class="outline-4">
-<h4 id="orgba76914"><span class="section-number-4">1.2.4</span> Fusing (White)</h4>
+<div id="outline-container-org5f0e301" class="outline-4">
+<h4 id="org5f0e301"><span class="section-number-4">1.2.4</span> Fusing (White)</h4>
 <div class="outline-text-4" id="text-1-2-4">
 <p>
 Grants the user the ability to combine and control the energy of willing/unconscious channeled energy users. Allowing the to do fused abilities up to the users level.
@@ -700,7 +751,7 @@ Grants the user the ability to combine and control the energy of willing/unconsc
 </div>
 
 <ol class="org-ol">
-<li><a id="org8bf1237"></a>Level Table<br />
+<li><a id="orgc3f09d5"></a>Level Table<br />
 <div class="outline-text-5" id="text-1-2-4-1">
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
@@ -751,7 +802,7 @@ Grants the user the ability to combine and control the energy of willing/unconsc
 </div>
 </li>
 
-<li><a id="org1f53f67"></a>Fused Energy Abilities Table<br />
+<li><a id="orga4e67f0"></a>Fused Energy Abilities Table<br />
 <div class="outline-text-5" id="text-1-2-4-2">
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
@@ -801,8 +852,8 @@ Grants the user the ability to combine and control the energy of willing/unconsc
 </ol>
 </div>
 
-<div id="outline-container-org8dc978c" class="outline-4">
-<h4 id="org8dc978c"><span class="section-number-4">1.2.5</span> Mind (Pink)</h4>
+<div id="outline-container-org3b0ee60" class="outline-4">
+<h4 id="org3b0ee60"><span class="section-number-4">1.2.5</span> Mind (Pink)</h4>
 <div class="outline-text-4" id="text-1-2-5">
 <p>
 Can see and manipulate for a (ep) cost the Mind-web. the Mind-web is both the web of ideas in ones mind as well as the web of ideas amongst individuals and groups. Energy points must be used to do any manipulations to find the (ep) cost multiply the group size by the manipulation size to get the total (ep) cost. Mind energy is gained by daring minds of one the user has killed this will permanently leave the user with this persons memories witch will lead to insanity of time as well as loss of ones selfie.    
@@ -810,7 +861,7 @@ Can see and manipulate for a (ep) cost the Mind-web. the Mind-web is both the we
 </div>
 
 <ol class="org-ol">
-<li><a id="org1bd5ebc"></a>Level Table<br />
+<li><a id="orgde39032"></a>Level Table<br />
 <div class="outline-text-5" id="text-1-2-5-1">
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
@@ -860,7 +911,7 @@ Can see and manipulate for a (ep) cost the Mind-web. the Mind-web is both the we
 </table>
 </div>
 <ol class="org-ol">
-<li><a id="org549dbaa"></a>Groups Sizes<br />
+<li><a id="orge596a4a"></a>Groups Sizes<br />
 <div class="outline-text-6" id="text-1-2-5-1-1">
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
@@ -907,7 +958,7 @@ Can see and manipulate for a (ep) cost the Mind-web. the Mind-web is both the we
 </table>
 </div>
 </li>
-<li><a id="org75ec18f"></a>Manipulation sizes<br />
+<li><a id="org42309d3"></a>Manipulation sizes<br />
 <div class="outline-text-6" id="text-1-2-5-1-2">
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
@@ -953,8 +1004,8 @@ Can see and manipulate for a (ep) cost the Mind-web. the Mind-web is both the we
 </ol>
 </div>
 
-<div id="outline-container-orge5f82cc" class="outline-4">
-<h4 id="orge5f82cc"><span class="section-number-4">1.2.6</span> Time (Green)</h4>
+<div id="outline-container-orgd7ebca4" class="outline-4">
+<h4 id="orgd7ebca4"><span class="section-number-4">1.2.6</span> Time (Green)</h4>
 <div class="outline-text-4" id="text-1-2-6">
 <p>
 Gives the user the ability to glide theme selves and any items on there person thru time for a cost of (ep), But either traveling too fast or to far can have severe side effects in the forum of uncontrollable displacement thru time. Whilst traveling thru time the user will NOT be move in position relative the nearest gravitational body of ant lest 3/10G . 
@@ -962,7 +1013,7 @@ Gives the user the ability to glide theme selves and any items on there person t
 </div>
 
 <ol class="org-ol">
-<li><a id="org63542b8"></a>Level Table<br />
+<li><a id="org1cf2ea8"></a>Level Table<br />
 <div class="outline-text-5" id="text-1-2-6-1">
 <p>
 For jumps larger than the max safe time refer the function blow.
@@ -1015,7 +1066,7 @@ For jumps larger than the max safe time refer the function blow.
 </table>
 </div>
 <ol class="org-ol">
-<li><a id="org577eaa4"></a>Jump distance function<br />
+<li><a id="org3a2b31c"></a>Jump distance function<br />
 <div class="outline-text-6" id="text-1-2-6-1-1">
 <p>
 This is used to both find and, represent how to find the random variation in time energy time travel.    
@@ -1072,40 +1123,249 @@ printOutput(level,timeJumped,timeJumpedOverPercentage,doLastJumpCalc,timeSinceLa
 </div>
 </div>
 </div>
-
-<div id="outline-container-org3549763" class="outline-2">
-<h2 id="org3549763"><span class="section-number-2">2</span> Timeline</h2>
+<div id="outline-container-org100cea3" class="outline-2">
+<h2 id="org100cea3"><span class="section-number-2">2</span> Items</h2>
 <div class="outline-text-2" id="text-2">
 </div>
-<div id="outline-container-orgaa19d32" class="outline-3">
-<h3 id="orgaa19d32"><span class="section-number-3">2.1</span> The Start of WWIII</h3>
+<div id="outline-container-org70ac6be" class="outline-3">
+<h3 id="org70ac6be"><span class="section-number-3">2.1</span> Weapons</h3>
 <div class="outline-text-3" id="text-2-1">
+<p>
+Naming conventions Martian:M### UN:EDF### &lt;Name&gt; WC:Country/### CE:The<sub>Grate</sub> &lt;Name&gt; SS:&lt;Leader&gt;-###
+Type Designations Energy Weapon:EW Rail-gun:RG Lazier:LZ Propellant:PP
+Effective range is for earth like conditions.         
+</p>
 </div>
-<div id="outline-container-org44b80de" class="outline-4">
-<h4 id="org44b80de"><span class="section-number-4">2.1.1</span> 2020</h4>
+<div id="outline-container-orgd503a1a" class="outline-4">
+<h4 id="orgd503a1a"><span class="section-number-4">2.1.1</span> Ranged</h4>
 <div class="outline-text-4" id="text-2-1-1">
+</div>
+<ol class="org-ol">
+<li><a id="org44d6e8b"></a>M172 RG<br />
+<div class="outline-text-5" id="text-2-1-1-1">
+<p>
+2D + 1, 20 R, 2R/S, ER 30m
+</p>
+</div>
+</li>
+<li><a id="org713fffe"></a>EDF103 Sandy PP<br />
+<div class="outline-text-5" id="text-2-1-1-2">
+<p>
+3D + 2, 10 R, 1R/S, ER 100m
+</p>
+</div>
+</li>
+<li><a id="orgeb1ab66"></a>WCUS/184 RG<br />
+<div class="outline-text-5" id="text-2-1-1-3">
+<p>
+1D, 320 R, 15R/S, ER 30m
+</p>
+</div>
+</li>
+<li><a id="org6b7c92c"></a>The<sub>Grate</sub> Liberator PP<br />
+<div class="outline-text-5" id="text-2-1-1-4">
+<p>
+1D + 2, 10 R, 1R/S, ER 20m
+</p>
+</div>
+</li>
+<li><a id="org3c40b02"></a>SS<sub>PeterI</sub>-798 LZ<br />
+<ol class="org-ol">
+<li><a id="org95f7fea"></a>Charge Blast<br />
+<div class="outline-text-6" id="text-2-1-1-5-1">
+<p>
+6D, 2 R, (1/5)R/S, ER ∞
+</p>
+</div>
+</li>
+<li><a id="orgdbd19e0"></a>Normal Blast<br />
+<div class="outline-text-6" id="text-2-1-1-5-2">
+<p>
+2D, 100 R, 1 R/S, ER ∞
+</p>
+</div>
+</li>
+</ol>
+</li>
+</ol>
+</div>
+
+<div id="outline-container-orga95fe66" class="outline-4">
+<h4 id="orga95fe66"><span class="section-number-4">2.1.2</span> Melee</h4>
+</div>
+</div>
+<div id="outline-container-org68517b4" class="outline-3">
+<h3 id="org68517b4"><span class="section-number-3">2.2</span> Tools</h3>
+</div>
+<div id="outline-container-orge47ebb5" class="outline-3">
+<h3 id="orge47ebb5"><span class="section-number-3">2.3</span> Drugs</h3>
+</div>
+<div id="outline-container-org627c1aa" class="outline-3">
+<h3 id="org627c1aa"><span class="section-number-3">2.4</span> Ships</h3>
+<div class="outline-text-3" id="text-2-4">
+<p>
+Naming conventions Martian:M###&lt;Ship Class&gt; UN:EDF###Space &lt;Name&gt; WC:Country/###S CE:The<sub>Grate</sub> &lt;Name&gt; SS:-Yuri Gagarin-### BO:Boeing 9##
+</p>
+</div>
+<div id="outline-container-org5f23106" class="outline-4">
+<h4 id="org5f23106"><span class="section-number-4">2.4.1</span> Transport</h4>
+<div class="outline-text-4" id="text-2-4-1">
+</div>
+<ol class="org-ol">
+<li><a id="orgc224cff"></a>M882LrTrans<br />
+<div class="outline-text-5" id="text-2-4-1-1">
+<p>
+Diameter 15m
+</p>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-right" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-right">Deck(s) #</th>
+<th scope="col" class="org-left">&#xa0;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-right">0</td>
+<td class="org-left">Bridge</td>
+</tr>
+
+<tr>
+<td class="org-right">1</td>
+<td class="org-left">Mess/Armory</td>
+</tr>
+
+<tr>
+<td class="org-right">2</td>
+<td class="org-left">Crew Quarters</td>
+</tr>
+
+<tr>
+<td class="org-right">3-5</td>
+<td class="org-left">1m wide corridor one either side passer rooms.</td>
+</tr>
+
+<tr>
+<td class="org-right">6</td>
+<td class="org-left">Docking</td>
+</tr>
+
+<tr>
+<td class="org-right">7,8</td>
+<td class="org-left">Engineering</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ol>
+</div>
+<div id="outline-container-org36ee47f" class="outline-4">
+<h4 id="org36ee47f"><span class="section-number-4">2.4.2</span> Cargo/Freighters</h4>
+<div class="outline-text-4" id="text-2-4-2">
+</div>
+<ol class="org-ol">
+<li><a id="org3c0d674"></a>Boeing 977<br />
+<div class="outline-text-5" id="text-2-4-2-1">
+<p>
+Diameter 100m until deck 5 then 20m.
+</p>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-right" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-right">Deck(s) #</th>
+<th scope="col" class="org-left">&#xa0;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-right">0</td>
+<td class="org-left">Docking</td>
+</tr>
+
+<tr>
+<td class="org-right">1-5</td>
+<td class="org-left">Cargo</td>
+</tr>
+
+<tr>
+<td class="org-right">6</td>
+<td class="org-left">Mess/Armory</td>
+</tr>
+
+<tr>
+<td class="org-right">7</td>
+<td class="org-left">Crew Quarters</td>
+</tr>
+
+<tr>
+<td class="org-right">8</td>
+<td class="org-left">Bridge</td>
+</tr>
+
+<tr>
+<td class="org-right">9</td>
+<td class="org-left">Engineering</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ol>
+</div>
+</div>
+
+<div id="outline-container-org9db8d50" class="outline-3">
+<h3 id="org9db8d50"><span class="section-number-3">2.5</span> Ship Weapons</h3>
+</div>
+</div>
+<div id="outline-container-orga1f3184" class="outline-2">
+<h2 id="orga1f3184"><span class="section-number-2">3</span> Timeline</h2>
+<div class="outline-text-2" id="text-3">
+</div>
+<div id="outline-container-org09ad413" class="outline-3">
+<h3 id="org09ad413"><span class="section-number-3">3.1</span> The Start of WWIII</h3>
+<div class="outline-text-3" id="text-3-1">
+</div>
+<div id="outline-container-org6bc8ce2" class="outline-4">
+<h4 id="org6bc8ce2"><span class="section-number-4">3.1.1</span> 2020</h4>
+<div class="outline-text-4" id="text-3-1-1">
 <ul class="org-ul">
 <li>China broke a agreement with the UK surrounding Hong Kong.</li>
 <li>Chines ships show growing hostility towards American, British, German, and Japanese ships in the sea of Japan.</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org7f642e1" class="outline-4">
-<h4 id="org7f642e1"><span class="section-number-4">2.1.2</span> 2026</h4>
-<div class="outline-text-4" id="text-2-1-2">
+<div id="outline-container-orgebb7d69" class="outline-4">
+<h4 id="orgebb7d69"><span class="section-number-4">3.1.2</span> 2026</h4>
+<div class="outline-text-4" id="text-3-1-2">
 <ul class="org-ul">
-<li>Independent Chines pirates take a German cargo ship hostage. The chines government responds by drooping a boom on the deck of the cargo ship. Before nearby American or German troops can respond; ending in the deaths of all 30 crew members and the lost a the 1.6B Euros Ship and the 460M Euros in cargo.</li>
+<li>Independent Chines pirates take a German cargo ship hostage. The chines government responds by drooping a bomb on the deck of the cargo ship. Before nearby American or German troops can respond; ending in the deaths of all 30 crew members and the lost a the 1.6B Euros Ship and the 460M Euros in cargo.</li>
 <li>The German Public is in out rage. Angela Merkel makes a public statement damming the chines government in the actions.</li>
 <li>The German war machine starts ramping up.</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-orgfa85740" class="outline-4">
-<h4 id="orgfa85740"><span class="section-number-4">2.1.3</span> 2028</h4>
-<div class="outline-text-4" id="text-2-1-3">
+<div id="outline-container-orgd8a3eb0" class="outline-4">
+<h4 id="orgd8a3eb0"><span class="section-number-4">3.1.3</span> 2028</h4>
+<div class="outline-text-4" id="text-3-1-3">
 <ul class="org-ul">
 <li>The Chines government asks the United States to retract all units from nine-dash line. The United States refuses.</li>
-<li>The <i>USS Harry S. Truman</i> is sunk of the cost of Taiwan after a air and sea skirmish with china</li>
+<li>The <i>USS Harry S. Truman</i> is sunk of the cost off Taiwan after a air and sea skirmish with China.</li>
 </ul>
 <p>
 Casualties
@@ -1121,9 +1381,9 @@ TW: 4
 </ul>
 </div>
 </div>
-<div id="outline-container-orgd6fc7a2" class="outline-4">
-<h4 id="orgd6fc7a2"><span class="section-number-4">2.1.4</span> 2029</h4>
-<div class="outline-text-4" id="text-2-1-4">
+<div id="outline-container-org556cd92" class="outline-4">
+<h4 id="org556cd92"><span class="section-number-4">3.1.4</span> 2029</h4>
+<div class="outline-text-4" id="text-3-1-4">
 <ul class="org-ul">
 <li>Prince Philips plain is shot down by the Chines while on a culinary visit to Japan.</li>
 <li>British prime minster Jon L. Smith is force to resign under growing presser.</li>
@@ -1133,24 +1393,404 @@ TW: 4
 </div>
 </div>
 </div>
+<div id="outline-container-org6101cd7" class="outline-3">
+<h3 id="org6101cd7"><span class="section-number-3">3.2</span> WWIII</h3>
+<div class="outline-text-3" id="text-3-2">
 </div>
-<div id="outline-container-orgd954e53" class="outline-2">
-<h2 id="orgd954e53"><span class="section-number-2">3</span> Factions</h2>
-<div class="outline-text-2" id="text-3">
+<div id="outline-container-org3fffebb" class="outline-4">
+<h4 id="org3fffebb"><span class="section-number-4">3.2.1</span> Factions</h4>
+<div class="outline-text-4" id="text-3-2-1">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Allies</th>
+<th scope="col" class="org-left">China</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">US</td>
+<td class="org-left">CCP</td>
+</tr>
+
+<tr>
+<td class="org-left">UK</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">SA</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">CA</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">AU</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">NZ</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">HK</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">DE</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">RU (March 31)</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">MN (April 31)</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+</tbody>
+</table>
 </div>
-<div id="outline-container-org359392d" class="outline-3">
-<h3 id="org359392d"><span class="section-number-3">3.1</span> Earth</h3>
-<div class="outline-text-3" id="text-3-1">
 </div>
-<div id="outline-container-orgf090988" class="outline-4">
-<h4 id="orgf090988"><span class="section-number-4">3.1.1</span> Major</h4>
-<div class="outline-text-4" id="text-3-1-1">
+<div id="outline-container-org920296a" class="outline-4">
+<h4 id="org920296a"><span class="section-number-4">3.2.2</span> 2030</h4>
+<div class="outline-text-4" id="text-3-2-2">
+<ul class="org-ul">
+<li>A British lead multinational coalition lays siege to Hong Kong capturing in 36 hours.</li>
+<li>Riots erupt in tanimania square.</li>
+<li>Germany pushes into Shenzhen</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orga322851" class="outline-4">
+<h4 id="orga322851"><span class="section-number-4">3.2.3</span> 2031</h4>
+<div class="outline-text-4" id="text-3-2-3">
+<ul class="org-ul">
+<li>China responds with a 30mil string push. Germany falls back to Hong Kong where the Allies hold</li>
+</ul>
 </div>
 <ol class="org-ol">
-<li><a id="orgd9174fe"></a>Western Collision<br />
+<li><a id="org383c250"></a>The Siege of Hong Kong<br />
 <ol class="org-ol">
-<li><a id="org8eef532"></a>Leaders<br />
-<div class="outline-text-6" id="text-3-1-1-1-1">
+<li><a id="org4098e38"></a>February<br />
+<div class="outline-text-6" id="text-3-2-3-1-1">
+<ul class="org-ul">
+<li>The Allies are pushed back to Ma Wan</li>
+<li>China drops bombs on Kap Shui Mun Bridge cutting the Allies forward healed position on Ma Wan off from the main base and airfield on Tung Chung.</li>
+<li>China attempts a push from Chines held Tsing Yi down Tsing Ma Bridge to the Allies forward base on Ma Wan. The chines end up building a barricade out of there own fallen troops. Loosing 330,845 men.</li>
+<li>At the same time as the push China launches conventional ICBMs at Washington, New York, London, Berlin, Munich. The ICBMs headed for North America are stopped by American defines systems and the one headed for Europe are stopped by the Russian defines systems.</li>
+</ul>
+</div>
+</li>
+<li><a id="org4105d9d"></a>March<br />
+<div class="outline-text-6" id="text-3-2-3-1-2">
+<ul class="org-ul">
+<li>Over air space violations Russia declares war on China.</li>
+<li>US spy plains capture images of 85mill chines troops moving towards Hong Kong.</li>
+<li>2mill Allie troops are evacuated to Taiwan from Chek Lap Kok. 132,023 men are lost in heavy carpet bombing of Tung Chug by China.</li>
+</ul>
+<p>
+Casualties Allies 312,513 China 8,234,493
+</p>
+</div>
+</li>
+</ol>
+</li>
+<li><a id="org447de6b"></a>Post Siege of Hong Kong<br />
+<div class="outline-text-5" id="text-3-2-3-2">
+<ul class="org-ul">
+<li>Under Russian Mongolia joins the Allies</li>
+<li>A joint Moscow Mi16 task force starts establishing insurgency groups inside Hohhot, Beijing, and Hong Kong.</li>
+</ul>
+</div>
+</li>
+</ol>
+</div>
+<div id="outline-container-org000500e" class="outline-4">
+<h4 id="org000500e"><span class="section-number-4">3.2.4</span> 2032</h4>
+<div class="outline-text-4" id="text-3-2-4">
+<ul class="org-ul">
+<li>Various minor sea battles</li>
+</ul>
+<p>
+Casualties Allies 2,891 China 332,451
+</p>
+<ul class="org-ul">
+<li>The Start of the <a href="#org84edc25">Taiwanese Civil War</a></li>
+</ul>
+</div>
+<ol class="org-ol">
+<li><a id="org5820c6a"></a>December<br />
+<div class="outline-text-5" id="text-3-2-4-1">
+<ul class="org-ul">
+<li>Russian sleeper cells are activated in Beijing.</li>
+<li>Xi Jinping is assisted by a Russian agent.</li>
+<li>Mi16/Moscow insurgency groups are activated.</li>
+</ul>
+</div>
+</li>
+</ol>
+</div>
+<div id="outline-container-orgfd10d27" class="outline-4">
+<h4 id="orgfd10d27"><span class="section-number-4">3.2.5</span> 2033</h4>
+<div class="outline-text-4" id="text-3-2-5">
+<ul class="org-ul">
+<li>Hohhot and Hong Kong are under insurgent control.</li>
+<li>A Russian lead joint Russian Mongolian coalition capture Inner Mongolia.</li>
+<li>German troop move into Hong Kong. Insurgents are at first hesitant of Germans until a peace offering of German bear and sausage.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org277b5ca" class="outline-4">
+<h4 id="org277b5ca"><span class="section-number-4">3.2.6</span> 2034</h4>
+<div class="outline-text-4" id="text-3-2-6">
+<ul class="org-ul">
+<li>China Pops</li>
+<li>Most unseeded nuclear arms are launcher randomly. Most are stopped by either Russian or American defines systems, but not all nukes land in Munich, Paris, Glasgow, Las Angeles, New York, Tokyo, and Sidney.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orge36c3aa" class="outline-4">
+<h4 id="orge36c3aa"><span class="section-number-4">3.2.7</span> Land Captured</h4>
+<div class="outline-text-4" id="text-3-2-7">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Land</th>
+<th scope="col" class="org-left">New Owner</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Hong Kong</td>
+<td class="org-left">United Kingdom</td>
+</tr>
+
+<tr>
+<td class="org-left">Inner Mongolia</td>
+<td class="org-left">Mongolia</td>
+</tr>
+
+<tr>
+<td class="org-left">Tibet</td>
+<td class="org-left">American Tibet</td>
+</tr>
+
+<tr>
+<td class="org-left">Macao</td>
+<td class="org-left">Germany</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="outline-container-orged940f1" class="outline-4">
+<h4 id="orged940f1"><span class="section-number-4">3.2.8</span> Total Casualties</h4>
+<div class="outline-text-4" id="text-3-2-8">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Country</th>
+<th scope="col" class="org-left">Military</th>
+<th scope="col" class="org-left">Civilian</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">US</td>
+<td class="org-left">42,231</td>
+<td class="org-left">23,433,137</td>
+</tr>
+
+<tr>
+<td class="org-left">UK</td>
+<td class="org-left">38,231</td>
+<td class="org-left">611,748</td>
+</tr>
+
+<tr>
+<td class="org-left">DE</td>
+<td class="org-left">29,872</td>
+<td class="org-left">1,538,302</td>
+</tr>
+
+<tr>
+<td class="org-left">RU</td>
+<td class="org-left">126,231</td>
+<td class="org-left">6</td>
+</tr>
+
+<tr>
+<td class="org-left">MN</td>
+<td class="org-left">3,212</td>
+<td class="org-left">987</td>
+</tr>
+
+<tr>
+<td class="org-left">FR</td>
+<td class="org-left">842</td>
+<td class="org-left">2,148,271</td>
+</tr>
+
+<tr>
+<td class="org-left">AZ</td>
+<td class="org-left">2,023</td>
+<td class="org-left">5,312,163</td>
+</tr>
+
+<tr>
+<td class="org-left">JP</td>
+<td class="org-left">231</td>
+<td class="org-left">13,929,280</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="outline-container-org84edc25" class="outline-4">
+<h4 id="org84edc25"><span class="section-number-4">3.2.9</span> Taiwanese Civil War</h4>
+<div class="outline-text-4" id="text-3-2-9">
+</div>
+<ol class="org-ol">
+<li><a id="org3dc76ac"></a>2032<br />
+<ol class="org-ol">
+<li><a id="org8f6ceee"></a>October<br />
+<div class="outline-text-6" id="text-3-2-9-1-1">
+<ul class="org-ul">
+<li>Protest in Taipei over the so called western occupation of Taiwan.</li>
+</ul>
+</div>
+</li>
+<li><a id="org32d4c6d"></a>November<br />
+<div class="outline-text-6" id="text-3-2-9-1-2">
+<ul class="org-ul">
+<li>Riots in Tainan</li>
+<li>US Army military police use lethal crowd control tactics in Tainan.</li>
+</ul>
+</div>
+</li>
+<li><a id="org652a67d"></a>December<br />
+<div class="outline-text-6" id="text-3-2-9-1-3">
+<ul class="org-ul">
+<li>A man in Yilan City rapes a German female troop. Her company with out orders for high command responds with the massacre of the man and his family.</li>
+<li>Anti western riots start in Taipei, Tainan, Yilan City, and Kaohsiung.</li>
+<li>Allie troops are attacked by locals while on liberty.</li>
+<li>Taiwanese president Li Xiu Lee formally expels Allie troops. The Allies refuse.</li>
+<li>The US sees control of Taipei. Much of the government including Li Xiu Lee flees to Japan; where Japanese offices arrest them on behalf of the US. There promptly sentenced to Death in Japanese courts.</li>
+</ul>
+</div>
+</li>
+</ol>
+</li>
+<li><a id="org3423aad"></a>2033<br />
+<ol class="org-ol">
+<li><a id="org3ffb00c"></a>January<br />
+<div class="outline-text-6" id="text-3-2-9-2-1">
+<ul class="org-ul">
+<li>The US establish a puppet government and takes control of the rest of the island.</li>
+</ul>
+</div>
+</li>
+<li><a id="org2636ac8"></a>April<br />
+<div class="outline-text-6" id="text-3-2-9-2-2">
+<ul class="org-ul">
+<li>The frequency of riots increases to the point where the puppet government lethally enforces a curfew kills the internet and jams all radio transitions.</li>
+</ul>
+</div>
+</li>
+<li><a id="org45e1475"></a>June<br />
+<div class="outline-text-6" id="text-3-2-9-2-3">
+<ul class="org-ul">
+<li>A full scale rebellion has started</li>
+<li>Allies retreat troops to either Japan or there homeland.</li>
+</ul>
+</div>
+</li>
+<li><a id="orgca5c68f"></a>July<br />
+<div class="outline-text-6" id="text-3-2-9-2-4">
+<ul class="org-ul">
+<li>The puppet government falls to the totalitarian up rising.</li>
+</ul>
+</div>
+</li>
+</ol>
+</li>
+</ol>
+</div>
+</div>
+<div id="outline-container-orgc9c63c0" class="outline-3">
+<h3 id="orgc9c63c0"><span class="section-number-3">3.3</span> The Nuclear Winter</h3>
+<div class="outline-text-3" id="text-3-3">
+</div>
+<div id="outline-container-org7664da3" class="outline-4">
+<h4 id="org7664da3"><span class="section-number-4">3.3.1</span> 2033</h4>
+<div class="outline-text-4" id="text-3-3-1">
+<ul class="org-ul">
+<li>Global tempers are reduced by on average 5°c.</li>
+<li>A multi national task force by the name of SEANCTF (South East Asian Nuclear Capture Task Force) comprised of The UK, The US, France, Germany, and Russia is assailed to capture any remaining nuclear weapons in the south east Asian war zone formally known as china.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgdde8282" class="outline-4">
+<h4 id="orgdde8282"><span class="section-number-4">3.3.2</span> 2034</h4>
+<div class="outline-text-4" id="text-3-3-2">
+<ul class="org-ul">
+<li>Famine in Poland</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org65217f7" class="outline-2">
+<h2 id="org65217f7"><span class="section-number-2">4</span> Factions</h2>
+<div class="outline-text-2" id="text-4">
+</div>
+<div id="outline-container-org3e1601d" class="outline-3">
+<h3 id="org3e1601d"><span class="section-number-3">4.1</span> Earth</h3>
+<div class="outline-text-3" id="text-4-1">
+</div>
+<div id="outline-container-org7ba8d9b" class="outline-4">
+<h4 id="org7ba8d9b"><span class="section-number-4">4.1.1</span> Major</h4>
+<div class="outline-text-4" id="text-4-1-1">
+</div>
+<ol class="org-ol">
+<li><a id="org63e2432"></a>Western Collision<br />
+<ol class="org-ol">
+<li><a id="org6648762"></a>Leaders<br />
+<div class="outline-text-6" id="text-4-1-1-1-1">
 <ul class="org-ul">
 <li>United States of America</li>
 <li>English Commonwealth</li>
@@ -1159,8 +1799,8 @@ TW: 4
 </ul>
 </div>
 </li>
-<li><a id="orgd812e85"></a>Members<br />
-<div class="outline-text-6" id="text-3-1-1-1-2">
+<li><a id="org367349d"></a>Members<br />
+<div class="outline-text-6" id="text-4-1-1-1-2">
 <ul class="org-ul">
 <li>The Northern Lights</li>
 <li>German Iberia</li>
@@ -1185,17 +1825,17 @@ TW: 4
 </li>
 </ol>
 </li>
-<li><a id="orgf2e49d6"></a>The Chines Empire<br />
+<li><a id="orga69b2e4"></a>The Chines Empire<br />
 <ol class="org-ol">
-<li><a id="org1623682"></a>Leader<br />
-<div class="outline-text-6" id="text-3-1-1-2-1">
+<li><a id="org514f7b3"></a>Leader<br />
+<div class="outline-text-6" id="text-4-1-1-2-1">
 <ul class="org-ul">
 <li>China</li>
 </ul>
 </div>
 </li>
-<li><a id="org7a4a169"></a>Members<br />
-<div class="outline-text-6" id="text-3-1-1-2-2">
+<li><a id="org2d79cae"></a>Members<br />
+<div class="outline-text-6" id="text-4-1-1-2-2">
 <ul class="org-ul">
 <li>Taiwan</li>
 <li>Korea</li>
@@ -1211,17 +1851,17 @@ TW: 4
 </li>
 </ol>
 </li>
-<li><a id="org087b188"></a>The Slavic States<br />
+<li><a id="orgb5b041e"></a>The Slavic States<br />
 <ol class="org-ol">
-<li><a id="org50b75ac"></a>Leader<br />
-<div class="outline-text-6" id="text-3-1-1-3-1">
+<li><a id="org6bc7b7e"></a>Leader<br />
+<div class="outline-text-6" id="text-4-1-1-3-1">
 <ul class="org-ul">
 <li>Russia</li>
 </ul>
 </div>
 </li>
-<li><a id="org58c282c"></a>Members<br />
-<div class="outline-text-6" id="text-3-1-1-3-2">
+<li><a id="org6aae9a1"></a>Members<br />
+<div class="outline-text-6" id="text-4-1-1-3-2">
 <ul class="org-ul">
 <li>Kazakhstan</li>
 <li>Ukraine</li>
@@ -1241,16 +1881,16 @@ TW: 4
 </li>
 </ol>
 </div>
-<div id="outline-container-org9fe9e34" class="outline-4">
-<h4 id="org9fe9e34"><span class="section-number-4">3.1.2</span> Minor</h4>
-<div class="outline-text-4" id="text-3-1-2">
+<div id="outline-container-org61c4715" class="outline-4">
+<h4 id="org61c4715"><span class="section-number-4">4.1.2</span> Minor</h4>
+<div class="outline-text-4" id="text-4-1-2">
 </div>
 <ol class="org-ol">
-<li><a id="org78fc3e7"></a>English Commonwealth<br /></li>
-<li><a id="org84bb33d"></a>Switzerland<br />
+<li><a id="orgcd92b9b"></a>English Commonwealth<br /></li>
+<li><a id="orgb23d5d5"></a>Switzerland<br />
 <ol class="org-ol">
-<li><a id="org8eb1c2b"></a>Leaders<br />
-<div class="outline-text-6" id="text-3-1-2-2-1">
+<li><a id="org26b675a"></a>Leaders<br />
+<div class="outline-text-6" id="text-4-1-2-2-1">
 <ul class="org-ul">
 <li>The Crown</li>
 <li>England</li>
@@ -1260,8 +1900,8 @@ TW: 4
 </ul>
 </div>
 </li>
-<li><a id="org7c78e7f"></a>Members<br />
-<div class="outline-text-6" id="text-3-1-2-2-2">
+<li><a id="org38f6253"></a>Members<br />
+<div class="outline-text-6" id="text-4-1-2-2-2">
 <ul class="org-ul">
 <li>Canada</li>
 <li>Australia</li>
@@ -1278,17 +1918,17 @@ TW: 4
 </ol>
 </div>
 </div>
-<div id="outline-container-org0de6276" class="outline-3">
-<h3 id="org0de6276"><span class="section-number-3">3.2</span> Mars</h3>
+<div id="outline-container-org741f676" class="outline-3">
+<h3 id="org741f676"><span class="section-number-3">4.2</span> Mars</h3>
 </div>
 
-<div id="outline-container-orga7ebb35" class="outline-3">
-<h3 id="orga7ebb35"><span class="section-number-3">3.3</span> Belt</h3>
+<div id="outline-container-org2238732" class="outline-3">
+<h3 id="org2238732"><span class="section-number-3">4.3</span> Belt</h3>
 </div>
 </div>
 </div>
 <div id="postamble" class="status">
-<p class="date">Created: 2020-08-13 Thu 01:15</p>
+<p class="date">Created: 2020-08-15 Sat 05:30</p>
 <p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>

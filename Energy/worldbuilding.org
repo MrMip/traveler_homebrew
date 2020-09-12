@@ -1,12 +1,11 @@
 #+TITLE: Energy World Building
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="https://gongzhitaao.org/orgcss/org.css"/>
 
-
 * Energy
 ** Basic Energy Rules
 All energy requires the user to channel it to be, used. Most energies require both arms to be free for the elbow down.
 *** Energy points (ep)
-Some energies require (ep) to use (there are: Life, Kinetic, Time). Energy points is; stored, named, measured and, regained differently for each energy. The energies that don't use (ep) simply manipulate the already excising energy in the world.   
+Some energies require (ep) to use (there are: Life, Kinetic, Time, Matter). Energy points is; stored, named, measured and, regained differently for each energy. The energies that don't use (ep) simply manipulate the already excising energy in the world.   
 *** Energy Devices and Crystals
 Energy is a form of power and it obeys the [[https://en.wikipedia.org/wiki/First_law_of_thermodynamics][first law of thermodynamics]] energy crystals are natural deposits of energy most of witch act as batteries as such they can be discharged and then recharged (only can be recharged by a user of the same energy as the crystal). These crystals can be used to power different devices that then can do actions similar to use energy but at a much lower efficacy.    
 
@@ -19,6 +18,8 @@ Energy is a form of power and it obeys the [[https://en.wikipedia.org/wiki/First
 | White  | Fusing    | Grants the user the ability to combine and control the energy of willing/unconscious channeled energy users.          |
 | Pink   | Mind      | Can see and manipulate for a (ep) cost the Mind-web.                                                                  |
 | Green  | Time      | Gives the user the ability to glide theme selves and any items on there person thru time for a cost of (ep).          |
+| Orange | The Ohoou | The Ohoou is a energy based hive mind although individuals or groups of individuals my be separated form the central hive mind. |
+| Blue   | Matter    | The user has the ability to change the state of matter at will.                                                                 |
 
 *** Ethereal (Purple)
 Ethereal energy allows the user to either create portals (max 2m diameter) a short distance away or either retrieve or deposed an item (witch can fit into the hand) into the Either.
@@ -188,10 +189,17 @@ This is used to both find and, represent how to find the random variation in tim
 
 #+RESULTS:
 : Jumped 5 minutes back in time.
+
+*** The Ohoou (Orange) 
+The Ohoou is a energy based hive mind although segments/individuals or groups of individuals my be separated form the central hive mind. Normal this is a willing possess of the Ohoou but, at times of unknown reason a segment my be unwilling separated this segment will maintain all information stored within it this may only enough to maintain life or the full ability for the segment to operate independently. Dependent on the circumstances of separation the segment my or my not be able to ever reconnect to the central hive mined.    
+
+*** Matter (Blue)
+The user has the ability to change the [[https://en.wikipedia.org/wiki/List_of_states_of_matter][states of matter]] at will of object with in 5m radios. This power does come a cost tho costing one (ep) for ever 1/4cm^3 of matter. As well as they can not put matter in to state that can not be in. Energy points are storied in the body ad it natural energy and can be replenished by eating where one (ep) is equal to 1500 kilo calories.
+
 * Items
 ** Weapons
 Naming conventions Martian:M### UN:EDF### <Name> WC:Country/### CE:The_Grate <Name> SS:<Leader>-###
-Type Designations Energy Weapon:EW Rail-gun:RG Lazier:LZ Propellant:PP
+Type Designations Rail-gun:RG Lazier:LZ Propellant:PP
 Effective range is for earth like conditions.         
 *** Ranged
 **** M172 RG
@@ -209,8 +217,40 @@ Effective range is for earth like conditions.
 2D, 100 R, 1 R/S, ER ∞
 
 *** Melee  
+** Energy Devices
+*** Weapons
+**** Ac3-702-BM
+The Ac3 as it's commonly known is a handheld energy focuser (beam diameter of 3cm). The Ac3 is powered by any energy crystal from a (ep) based energy. It conceits of a metallic black or gray shell if the shape of a pistol, but towards the back at a 45° tilted away form the barrel a cylindrical out cropping where small energy crystal is placed to power the device. Pressing the trigger will activate the device in ether Normal or inverted modes. Dependent on the state of the selector switch.       
+
+*DO NOT ATTEMPT TO USE WITH CRYSTAL ABOVE OR AT 100°C THIS MY END IN DEATH FOR ALL IN A 5M RADIOS OF THE Ac3-702-BM!*
+
+***** Life    
+With Life energy it is able to move 500(ep)/m.
+****** Normal mode
+It fires a direct beam of consecrated energy injecting life energy into whom ever it hits. 
+****** Inverted mode
+It fires a direct beam of consecrated energy execrating life energy into whom ever it hits. This causes a 50% inefficient witch is out put as heat increasing the temperature of 10°c/30s during use.  
+***** Kinetic 
+****** Normal mode
+Creates a beam of energy that pushes away any thing it touches at or near [[https://en.wikipedia.org/wiki/Speed_of_light][light speed]] this causes the crystal to heat up by 10°c/15s.  
+****** Inverted mode
+Creates a beam of energy that pulls any thing it touches at or near [[https://en.wikipedia.org/wiki/Speed_of_light][light speed]] this causes the crystal to heat up by 10°c/15s.  
+***** Time
+****** Normal mode
+The Ac3 will move it's self to a random point in time forward. 
+****** Inverted mode
+The Ac3 will move it's self to a random point in time backward. 
+***** Matter
+****** Normal mode
+Causes any thing the beam touches to kill turn into gas it its already gas it will turn into plasma. This will cause the crystal to heat up by 100°c/s.    
+****** Inverted mode
+Causes any thing the beam touches to kill turn into liquid it its already liquid it will turn into solid. This will cause the crystal to heat up by 100°c/s.
+    
 ** Tools
 ** Drugs
+*** Class A
+*** Class B
+*** Class C
 ** Ships
 Naming conventions Martian:M###<Ship Class> UN:EDF###Space <Name> WC:Country/###S CE:The_Grate <Name> SS:-Yuri Gagarin-### BO:Boeing 9##
 *** Transport
@@ -358,7 +398,39 @@ Casualties Allies 2,891 China 332,451
 + A multi national task force by the name of SEANCTF (South East Asian Nuclear Capture Task Force) comprised of The UK, The US, France, Germany, and Russia is assailed to capture any remaining nuclear weapons in the south east Asian war zone formally known as china.
 *** 2034
 + Famine in Poland
-  
++ The UK declares war on Iceland over fishing rights.
++ The US pays the UK in salmon to end the war.
+*** 2037
++ Poverty rate in Spain is at 98%
++ Poland devolves into anarchy
+*** 2040
++ [[The war of Iberia][The war of Iberia]] starts.
+*** 2045 
++ The US and UK form the Western Collision
++ Canada joins the WC 
+*** 2050 
++ France leaves the EU joining the WC
+*** 2051
++ German leaves the EU joining the WC
++ The [[https://en.wikipedia.org/wiki/European_Space_Agency][esa]] headquarters in Paris are raided by French authorities
++ The remnants of the [[https://en.wikipedia.org/wiki/European_Space_Agency][esa]], the [[https://en.wikipedia.org/wiki/Canadian_Space_Agency][CSA]], the [[https://en.wikipedia.org/wiki/UK_Space_Agency][UKSA]], and [[https://en.wikipedia.org/wiki/NASA][NASA]] are combined to forum the WCSA.      
+*** The war of Iberia    
+**** 2040
++ Spain brakes in to a civil war
+**** 2043
++ West Spain attacks Portugal, The UK and Germany respond to help.
++ The UK blockades Spanish ports while Germany rolls tanks thru the country.
++ The Fall of East Spain to German Hands.
++ The Fall of West Spain to German and British hands.
+**** Land Captured   
+| Land                                  | New Owner      |
+|---------------------------------------+----------------|
+| North Spanish Coast                   | United Kingdom |
+| South Spanish Coast West of Gibraltar | United Kingdom |
+| The rest of Spain                     | German Iberia  |
+|                                       |                |
+*Going to put some more stuff up there ^ but for now I'm going to work on some latter events*
+*** 2263 
 * Factions
 ** Earth
 *** Major

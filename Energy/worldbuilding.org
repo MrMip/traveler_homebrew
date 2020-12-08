@@ -10,14 +10,14 @@ Some energies require (ep) to use (there are: Life, Kinetic, Time, Matter). Ener
 Energy is a form of power and it obeys the [[https://en.wikipedia.org/wiki/First_law_of_thermodynamics][first law of thermodynamics]] energy crystals are natural deposits of energy most of witch act as batteries as such they can be discharged and then recharged (only can be recharged by a user of the same energy as the crystal). These crystals can be used to power different devices that then can do actions similar to use energy but at a much lower efficacy.    
 
 ** Energy Types
-| Color  | Name      | Description                                                                                                           |
-|--------+-----------+-----------------------------------------------------------------------------------------------------------------------|
-| Purple | Ethereal  | Allows the user to either create portals a short distance away or either retrieve or deposed an item into the Either. |
-| Black  | Life/Dark | Gives the user the ability to both drain and restore life from a willing/broken living object.                        |
-| Yellow | Kinetic   | Turns the users caloric energy into kinetic energy witch can be, directed towards any thing in sight (max:100m).      |
-| White  | Fusing    | Grants the user the ability to combine and control the energy of willing/unconscious channeled energy users.          |
-| Pink   | Mind      | Can see and manipulate for a (ep) cost the Mind-web.                                                                  |
-| Green  | Time      | Gives the user the ability to glide theme selves and any items on there person thru time for a cost of (ep).          |
+| Color  | Name      | Description                                                                                                                     |
+|--------+-----------+---------------------------------------------------------------------------------------------------------------------------------|
+| Purple | Ethereal  | Allows the user to either create portals a short distance away or either retrieve or deposed an item into the Either.           |
+| Black  | Life/Dark | Gives the user the ability to both drain and restore life from a willing/broken living object.                                  |
+| Yellow | Kinetic   | Turns the users caloric energy into kinetic energy witch can be, directed towards any thing in sight (max:100m).                |
+| White  | Fusing    | Grants the user the ability to combine and control the energy of willing/unconscious channeled energy users.                    |
+| Pink   | Mind      | Can see and manipulate for a (ep) cost the Mind-web.                                                                            |
+| Green  | Time      | Gives the user the ability to glide theme selves and any items on there person thru time for a cost of (ep).                    |
 | Orange | The Ohoou | The Ohoou is a energy based hive mind although individuals or groups of individuals my be separated form the central hive mind. |
 | Blue   | Matter    | The user has the ability to change the state of matter at will.                                                                 |
 
@@ -264,9 +264,22 @@ Diameter 15m
 |       3-5 | 1m wide corridor one either side passer rooms. |
 |         6 | Docking                                        |
 |       7,8 | Engineering                                    |
+**** WCUK/1818S
+Commonly known as the pickup truck of space. 1818 can do every thing just not that good at anything.  
+Diameter 5m
+| Deck(s) # |               |
+|-----------+---------------|
+|         0 | Bridge        |
+|         1 | Mess/Armory   |
+|         2 | Crew Quarters |
+|         3 | Docking/Cargo |
+|         4 | Engineering   |
+***** Weapons
+2x WCDE/8888 LZ
+
 *** Cargo/Freighters
 **** Boeing 977
-Diameter 100m until deck 5 then 20m.
+Diameter 100m until deck 5 then 20m. 
 | Deck(s) # |               |
 |-----------+---------------|
 |         0 | Docking       |
@@ -275,8 +288,14 @@ Diameter 100m until deck 5 then 20m.
 |         7 | Crew Quarters |
 |         8 | Bridge        |
 |         9 | Engineering   |
+Note: Decks 0-5 can be ejected.
 
 ** Ship Weapons
+Naming conventions Martian:M### UN:EDF### <Name> WC:Country/### CE:The_Grate <Name> SS:<Leader>-###
+Type Designations Rail-gun:RG Lazier:LZ Propellant:PP
+
+**** WCDE/8888 LZ
+10D, ∞ R, 1.5 R/S, ER ∞
 * Timeline
 ** The Start of WWIII 
 *** 2020

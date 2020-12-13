@@ -10,16 +10,16 @@ Some energies require (ep) to use (there are: Life, Kinetic, Time, Matter). Ener
 Energy is a form of power and it obeys the [[https://en.wikipedia.org/wiki/First_law_of_thermodynamics][first law of thermodynamics]] energy crystals are natural deposits of energy most of witch act as batteries as such they can be discharged and then recharged (only can be recharged by a user of the same energy as the crystal). These crystals can be used to power different devices that then can do actions similar to use energy but at a much lower efficacy.    
 
 ** Energy Types
-| Color  | Name      | Description                                                                                                                     |
-|--------+-----------+---------------------------------------------------------------------------------------------------------------------------------|
-| Purple | Ethereal  | Allows the user to either create portals a short distance away or either retrieve or deposed an item into the Either.           |
-| Black  | Life/Dark | Gives the user the ability to both drain and restore life from a willing/broken living object.                                  |
-| Yellow | Kinetic   | Turns the users caloric energy into kinetic energy witch can be, directed towards any thing in sight (max:100m).                |
-| White  | Fusing    | Grants the user the ability to combine and control the energy of willing/unconscious channeled energy users.                    |
-| Pink   | Mind      | Can see and manipulate for a (ep) cost the Mind-web.                                                                            |
-| Green  | Time      | Gives the user the ability to glide theme selves and any items on there person thru time for a cost of (ep).                    |
-| Orange | The Ohoou | The Ohoou is a energy based hive mind although individuals or groups of individuals my be separated form the central hive mind. |
-| Blue   | Matter    | The user has the ability to change the state of matter at will.                                                                 |
+| Color  | Name      | Description                                                                                                                               |
+|--------+-----------+-------------------------------------------------------------------------------------------------------------------------------------------|
+| Purple | Ethereal  | Allows the user to either create portals a short distance away or either retrieve or deposed an item into the Either.                     |
+| Black  | Life/Dark | Gives the user the ability to both drain and restore life from a willing/broken living object.                                            |
+| Yellow | Kinetic   | Turns the users caloric energy into kinetic energy witch can be, directed towards any thing in sight (max:1k).                            |
+| White  | Fusing    | Grants the user the ability to combine and control the energy of willing/unconscious channeled energy users or energy in is liquid state. |
+| Pink   | Mind      | Can see and manipulate for a (ep) cost the Mind-web.                                                                                      |
+| Green  | Time      | Gives the user the ability to glide theme selves and any items on there person thru time for a cost of (ep).                              |
+| Orange | The Ohoou | The Ohoou is a energy based hive mind although individuals or groups of individuals my be separated form the central hive mind.           |
+| Blue   | Matter    | The user has the ability to change the state of matter at will.                                                                           |
 
 *** Ethereal (Purple)
 Ethereal energy allows the user to either create portals (max 2m diameter) a short distance away or either retrieve or deposed an item (witch can fit into the hand) into the Either.
@@ -47,18 +47,18 @@ The ability you choose must be at most of the same level as your creator.
 | Intermediate | +3,000 Dark energy Holding +1 Dark ability                 |
 | Master       | +5,000 Dark energy Holding +1 Dark ability                 |
 | High Master  | +10,000 Dark energy Holding +1 Dark ability                |
-| Grand Master | +50,000 Dark energy Holding +1 Dark ability and Dark sight |
+| Grand Master | +50,000 Dark energy Holding +1 Dark ability and Encapsulate |
 **** Dark Ability Table
 To use a ability you must be at lest the same level as the ability. 
-| Level        | Name                | Description                                                                                                                         |
-|--------------+---------------------+-------------------------------------------------------------------------------------------------------------------------------------|
-| Natural      | Dark Energy Control | The user can control up to you max capacity of Dark energy capacity while its in a physical form. (50^3cm = 1,000 Dark(ep))         |
-| Novice       | Force Drain         | This allows the user to forcefully drain a targets Life energy (within sight) but at the expense of (2x) the life energy drained.   |
-| Novice       | Dark Speak          | Allows the user to speed Dark crystals.                                                                                             |
-| Intermediate | Will Brake          | Whom ever uses this is able to brake the will of a creature. This allows draining. (Costs creatures (Str+End+Int-Age)x10 + 3 hours) |
-| Intermediate | Energy whips        | Allows you to control as much energy as you like assuming it is in contact with your arms. (Damage ((ep) in whips x .01)D )         |
-| Master       | Energy Tentacles    | Control four tentacles on any size as long as there connected to you. at HM the number increase to five an GM eight.                |
-| Grand Master | Dark sight          | Allows you the see the total Dark and not Dark (ep) where ever you look                                                             |
+| Level        | Name                | Description                                                                                                                                                    |
+|--------------+---------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Natural      | Dark Energy Control | The user can control up to you max capacity of Dark energy capacity while its in a physical form. (50^3cm = 1,000 Dark(ep))                                    |
+| Novice       | Force Drain         | This allows the user to forcefully drain a targets Life energy (within sight) but at the expense of (2x) the life energy drained.                              |
+| Novice       | Dark Speak          | Allows the user to speed Dark crystals.                                                                                                                        |
+| Intermediate | Will Brake          | Whom ever uses this is able to brake the will of a creature. This allows draining. (Costs creatures (Str+End+Int-Age)x10 + 3 hours)                            |
+| Intermediate | Energy whips        | Allows you to control as much energy as you like assuming it is in contact with your arms. (Damage ((ep) in whips x .01)D )                                    |
+| Master       | Energy Tentacles    | Control four tentacles on any size as long as there connected to you. at HM the number increase to five an GM eight.                                           |
+| Grand Master | Encapsulate         | This allows the user to encapsulate them selves in pure dark energy giving all attackers a -6 to all attack rolls against the user. For the cost of 2,000 (ep) |
 **** Energy Point Loss table
 | Energy Points | Effect           |
 |---------------+------------------|
@@ -70,7 +70,7 @@ To use a ability you must be at lest the same level as the ability.
 | 0 (ep)        | Death            |
 
 *** Kinetic (Yellow)
- Turns the users caloric energy into kinetic energy witch can be, directed towards any thing in sight (max:100m). The amount of (ep) the user has stored is, deterred by the users stored caloric energy witch is a 1:1 ration to (ep) but, only one third of the caloric intake can be, used for energy the other 2/3 are, used for normal body functions.
+ Turns the users caloric energy into kinetic energy witch can be, directed towards any thing in sight (max:1k). The amount of (ep) the user has stored is, deterred by the users stored caloric energy witch is a 1:1 ration to (ep) but, only one third of the caloric intake can be, used for energy the other 2/3 are, used for normal body functions.
 
 **** Level Table
 | Level        |                                                  |
@@ -83,7 +83,7 @@ To use a ability you must be at lest the same level as the ability.
 | Grand Master | +30,00N Max Force can and control unseen objects |
 
 *** Fusing (White)
-Grants the user the ability to combine and control the energy of willing/unconscious channeled energy users. Allowing the to do fused abilities up to the users level.
+Grants the user the ability to combine and control the energy of willing/unconscious channeled energy users or energy in is liquid state. Allowing the to do fused abilities up to the users level.
 
 **** Level Table
 | Level        |                                                                                   |
@@ -217,6 +217,17 @@ Effective range is for earth like conditions.
 2D, 100 R, 1 R/S, ER ∞
 
 *** Melee  
+** Warbles
+*** Body Armor
+*** Exosuits
+*** Misc    
+**** Vac Suit
+Allows the user to both move and survive in the vacuum of space
+AC 0
+***** Jet pack      
+Hydrogen
+1kg/h at 1G
+
 ** Energy Devices
 *** Weapons
 **** Ac3-702-BM
@@ -247,10 +258,20 @@ Causes any thing the beam touches to kill turn into gas it its already gas it wi
 Causes any thing the beam touches to kill turn into liquid it its already liquid it will turn into solid. This will cause the crystal to heat up by 100°c/s.
     
 ** Tools
+**** Plasma Cutter
+     A object in the shape of a two pronged fork, on the handle there is a button that when preset stretches a beam of plasma across the forks. Using 50g/m of Hydrogen from Hydrogen Cells.   
 ** Drugs
+If you have any Class A drugs on you, you will be killed on sight. Class B punishments range from prison on confiscation. Class C legal.  
+*There May be acceptations to theses class rules* 
 *** Class A
 *** Class B
 *** Class C
+**** Blue-Pow
+     *Illegal to sell on Mars*
+     A snort-able forum [[https://en.wikipedia.org/wiki/Nicotine][nicotine]].
+**** Juice  
+     Allows the user withstand forces 4x times higher then normal, and must be introduced to the body intravenously Thur the neck. Commonly used on ships. 
+
 ** Ships
 Naming conventions Martian:M###<Ship Class> UN:EDF###Space <Name> WC:Country/###S CE:The_Grate <Name> SS:-Yuri Gagarin-### BO:Boeing 9##
 *** Transport
@@ -296,6 +317,14 @@ Type Designations Rail-gun:RG Lazier:LZ Propellant:PP
 
 **** WCDE/8888 LZ
 10D, ∞ R, 1.5 R/S, ER ∞
+** Misc
+*** Fuel 
+**** Hydrogen 
+***** Hydrogen Cells
+A small can of hydrogen 500g 
+***** Hydrogen Packs 
+A medium pack of hydrogen 1.5kg
+
 * Timeline
 ** The Start of WWIII 
 *** 2020
@@ -369,6 +398,7 @@ Casualties Allies 2,891 China 332,451
 + German troop move into Hong Kong. Insurgents are at first hesitant of Germans until a peace offering of German bear and sausage.
 *** 2034        
 + China Pops
++ Brazil is appointed to the [[https://en.wikipedia.org/wiki/United_Nations_Security_Council][UN Security Council]] ad a pediment member  
 + Most unseeded nuclear arms are launcher randomly. Most are stopped by either Russian or American defines systems, but not all nukes land in Munich, Paris, Glasgow, Las Angeles, New York, Tokyo, and Sidney.
 *** Land Captured      
 | Land           | New Owner      |
@@ -447,9 +477,40 @@ Casualties Allies 2,891 China 332,451
 | North Spanish Coast                   | United Kingdom |
 | South Spanish Coast West of Gibraltar | United Kingdom |
 | The rest of Spain                     | German Iberia  |
-|                                       |                |
 *Going to put some more stuff up there ^ but for now I'm going to work on some latter events*
 *** 2263 
++ The United states declares war on Texas.
++ The /USS New York/ Is blown up while landing a Mars Dome 3 for refueling a liberty.
++ Quebec is found to selling arms to the Martian rebels.
++ British lead WC troops move to the Quebec border.
+*** 2264
++ Terrain business men are denied access to the Martian traded conference.
++ A string of 18 attacks on Terrain citizens on Mars.
++ A shuttle filed with 2 Nukes blows up while landing a [[https://en.wikipedia.org/wiki/Heathrow_Airport][Heathrow]] in London.
++ The WC declares a war on tarrier.
++ The Martian war of Independents starts
+** The Martian War of Independents 
+*** 2264
++ All Martians in WC territory are rounded up and put into safety camps, "for there protection".
++ All Humanitarian supply shipments to Mars are blockaded by the WC.
+*** 2265
++ French agents launch attacks against the water reclamation systems in Mars domes 1,2,3,5,8.
++ The start of the grate Martina water famine.
++ The UN humanitarian council objects to the actions of the WC on Mars.
++ Brazil Threatens war if the WC does not allow the to provide humanitarian aid to Mars.
++ WC troop attack Mars dome one.
+**** The attack on Mars dome one
++ While attempting to land WC transports encounter a barrier not allowing the ships to come in for a landing. 
++ Attempts to bomb Mars dome one end in the bombs floating in mid air and then with no provocation detonating.
++ Ground forces attempting to attack stop randomly stop during advance and a black liquid forms in balls around them after 30 second they die.
++ WC forces retreat.
++ WC spy report seeing troops in Mars dome one with glowing yellow, Black, and White eyes.
+*** 2266
++ Brazil razes a UN action to have all WC member states removed from the UN, the US and UK veto this action.
++ Brazil declares war on the WC.
++ Political unrest in WC grows to a all time high.
++ A string of Bombings in New York, Washington, London, Liverpool, Berlin, Munich start.
++  
 * Factions
 ** Earth
 *** Major

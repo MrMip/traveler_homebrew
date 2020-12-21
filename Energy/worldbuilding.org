@@ -22,7 +22,9 @@ Energy is a form of power and it obeys the [[https://en.wikipedia.org/wiki/First
 | Blue   | Matter    | The user has the ability to change the state of matter at will.                                                                           |
 
 *** Ethereal (Purple)
-Ethereal energy allows the user to either create portals (max 2m diameter) a short distance away or either retrieve or deposed an item (witch can fit into the hand) into the Either.
+Ethereal energy allows the user to either create portals (max 2m diameter) a short distance away or either retrieve or deposed an item (witch can fit into the hand) into the Either. If the user opens a portal without a exit it will go into there pocket of the ethereal plain. Time in a users ethereal pocket does not move unless it is being accessed by the user.  
+
+The back side of a ethereal portal is an optic purple mist and all object witch touche it are reflect back with the same energy that they hit it with. 
 
 **** Level Table
 Each Level there are the options two different please only pick one.
@@ -257,6 +259,9 @@ Causes any thing the beam touches to kill turn into gas it its already gas it wi
 ****** Inverted mode
 Causes any thing the beam touches to kill turn into liquid it its already liquid it will turn into solid. This will cause the crystal to heat up by 100°c/s.
     
+*** Tools
+**** Energy Blockers  
+     A set of four metal rings that are placed on wrists and ankles etch containing a fusion crystal and will tall four of the placed on blocking the where from using energy.   
 ** Tools
 **** Plasma Cutter
      A object in the shape of a two pronged fork, on the handle there is a button that when preset stretches a beam of plasma across the forks. Using 50g/m of Hydrogen from Hydrogen Cells.   
@@ -268,10 +273,12 @@ If you have any Class A drugs on you, you will be killed on sight. Class B punis
 *** Class C
 **** Blue-Pow
      *Illegal to sell on Mars*
-     A snort-able forum [[https://en.wikipedia.org/wiki/Nicotine][nicotine]].
+     A snort-able forum [[https://en.wikipedia.org/wiki/Nicotine][nicotine]]. If a addicted person does not have any for 24 hours they will enter withdrawal causing a -2 to all rolls for the next 2 weeks for until the person has more Blue-Pow. 
 **** Juice  
      Allows the user withstand forces 4x times higher then normal, and must be introduced to the body intravenously Thur the neck. Commonly used on ships. 
 
+**** Combat Stems
+     Comes in a 250ml syringe. It is then to be injected into the mussel tissue and takes 20 minutes to reach the brain, then for the next 24 hours after consumption if any adrenaline enters the body synthetic on not it will be converted to a chemical compound that allows a normal human to think 1.8x times faster. Giving a +1 to all combat roles for the duration of the drug.    
 ** Ships
 Naming conventions Martian:M###<Ship Class> UN:EDF###Space <Name> WC:Country/###S CE:The_Grate <Name> SS:-Yuri Gagarin-### BO:Boeing 9##
 *** Transport
@@ -510,7 +517,9 @@ Casualties Allies 2,891 China 332,451
 + Brazil declares war on the WC.
 + Political unrest in WC grows to a all time high.
 + A string of Bombings in New York, Washington, London, Liverpool, Berlin, Munich start.
-+  
++ Mars declares it's self a independent.
++ Mars asks to join the UN, this request is second by Brazil, and is stopped by The UK, US, and France.
+** The Grate Martian  
 * Factions
 ** Earth
 *** Major
